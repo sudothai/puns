@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import AnswerCard from "./AnswerCard";
 
 export default function Button() {
   const [show, setShow] = useState(false);
@@ -11,10 +12,10 @@ export default function Button() {
         onClick={() => (
             setShow((prevState) => !prevState)
           )}
-        className="btn btn-neutral mt-5">
+        className="btn btn-primary btn-lg mt-8">
         Reveal
       </button>
-      {show && <h2 className="mt-5">Grains...</h2>}
+      {show && <h2 className="text-2xl mt-8"><AnswerCard /></h2>}
     </div>
   );
 }
