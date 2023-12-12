@@ -8,7 +8,9 @@ export default function Button() {
     <div>
       <button
         type="button"
-        onClick={() => setShow(!show)}
+        onClick={() => (
+            setShow((prevState) => !prevState)
+          )}
         className="btn btn-neutral mt-5">
         Reveal
       </button>
