@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" data-theme="light">
+    <html lang="en">
       <body className={inter.className}>
         {/* <div className="container h-full pt-12"> */}
         <div>
