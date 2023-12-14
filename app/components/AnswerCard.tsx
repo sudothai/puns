@@ -1,6 +1,8 @@
 const AnswerCard = () => {
   return (
-    <p>Grains...</p>
+    <div>
+      <h1 className="text-2xl">Grains...</h1>
+    </div>
     )
 }
 
